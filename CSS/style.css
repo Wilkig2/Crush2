@@ -1,0 +1,115 @@
+header {
+	height: 30vh;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	min-height: 5vh;
+	background-color: gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;  
+	text-transform: uppercase;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+nav ul li a:hover:not(.active) {
+	background-color: #111;
+}
+
+.Menu {
+	background-color: gray;
+}
+
+
+.image-style {
+	display:block; 
+	height: 250px;
+	width: 1250px;
+	margin-left:auto; 
+	margin-right:auto; 
+	
+}
+main {
+	min-height: 55vh;
+	background: white;
+}
+
+body {
+	background: white;	
+	font-family: "Times New Roman", serif;
+}
+
+.MainContent {
+	display: flex;
+	justify-content: left;
+	Align-items: left;
+	text-align: left;
+}
+
+@media only screen and (min-width: 426px) {
+	main {
+		background-color: silver;
+		opacity: 0.7
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	main {
+		background-color: silver;
+		opacity: o.7
+	}
+
+@media only screen and (min-width: 426px) {
+	main {
+		background-color: silver;
+		opacity: 0.9 
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	main {
+		background-color: silver;
+	}
+	
+}
+
+
+
+
+
